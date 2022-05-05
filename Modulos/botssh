@@ -6,7 +6,7 @@
 #	CANAL TELEGRAM:	http://t.me/sshplus
 #====================================================
 clear
-[[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@BETO_SSH" ]] && exit 0
+
 fun_bar() {
     comando[0]="$1"
     comando[1]="$2"
